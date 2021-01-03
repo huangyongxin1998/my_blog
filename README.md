@@ -17,9 +17,9 @@
 
 三、创建myBlog项目
 1、cmd命令提示符进入空文件夹下执行创建django项目  django-admin startproject myBlog
-2.给myBlog创建虚拟环境使用 python -m venv  env
-3.进入到虚拟环境 .\\env\\Scripts\\activate
-4.退出虚拟环境  deactivate 
+2.给myBlog创建虚拟环境使用 python -m venv  env  创建虚拟环境是python3中提供的venv    ***  python -m venv env 
+3.进入到虚拟环境 激活虚拟环境 .\\env\\Scripts\\activate
+4.退出当前虚拟环境  deactivate 
 5.使用VSCode打开myblog  执行 python manage.py startapp app_name
 6.在settings.py中进行注册每个app  INSTALLED_APPS  
 7.创建models.py填写数据进行迁移数据库 写源编程类和str函数
