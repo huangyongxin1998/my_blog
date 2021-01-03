@@ -10,6 +10,7 @@
 4.远程仓库和本地仓库进行关联 git remote add origin '你的远程ssh仓库地址' 
 5.推送四步骤
   git status 查看发生变化的文件
+  git add . 
   git commit -m '备注' 注明自己进行的每次动作
   git push -u origin master 第一次提交
   git push 之后的每次提交
