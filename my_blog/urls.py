@@ -14,8 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('article/',include('articles.urls'))
 ]
+
+#后台管理页面的展示
+admin.site.site_header='myBlog后台管理系统'
+admin.site.index_title='myBlog管理后台首页'
+admin.site.site_title='myBlog'
