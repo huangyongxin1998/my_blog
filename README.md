@@ -52,4 +52,7 @@
 注册静态内容 {% load static %}  css/js
 
 七、注册路由实现页面跳转
+在主博客页面的urls.py文件中include引入每个app的urls配置
+MVC模式  models.py 数据库字段内容 进行数据展示和增删改查 views.py   
+
 
