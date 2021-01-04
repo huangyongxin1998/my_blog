@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>我的个人网站</title>
-		<!--static\bootstrap-custom\css\custom-boostrap.css-->
+		<!--static\bootstrap-custom\css\custom-boostrap.css    D:\DjangoBlog\my_blog\static\bootstrap-custom\css\custom-boostrap.css-->
 		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-custom/css/custom-boostrap.css' %}" />
 		<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-custom/css/blog.css' %}" />
 	</head>
@@ -35,13 +35,14 @@
 					</form>
 				</nav>
 			</div>
-        </header>
+		</header>
+		
         <div id="body" class="container">
 			<div class="row">
-                {% block content %}
-                {% endblock %}
+				{% block content %}
+				{% endblock %}
             </div>
-        </div>
+		</div>
         <footer>
 			<div class="container">
 				<hr>
@@ -49,7 +50,7 @@
 			</div>
 		</footer>
 	</body>
-	<script src="{% static 'bootstrap-custom/js/jquery-3.5.1.js' %}" type="text/javascript" charset="utf-8"></script>
-	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="{% static 'bootstrap-custom/js/jquery-3.5.1.js' %}" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>

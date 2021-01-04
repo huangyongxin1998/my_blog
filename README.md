@@ -47,7 +47,7 @@
 六、实现模板复用
 如何加载静态页面  网上图片不需要解析  加标签  
 在settings.py文件中注册静态页面和templates模板 
-创建公共模板进行继承extends 实现模板复用 
+创建公共模板进行继承extends 实现模板复用  
 将公共内容base.html/aside.html写入common文件夹中实现模板复用减少冗余代码的写入
 注册静态内容 {% load static %}  css/js
 
