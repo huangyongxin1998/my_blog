@@ -127,3 +127,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=(
     os.path.join(BASE_DIR,'staic')
 )
+
+"python.linting.pylintArgs": [
+    "--errors-only",
+    "--disable=E0401"
+],
