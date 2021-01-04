@@ -5,11 +5,13 @@ from .models import Articles
 # Create your views here.
 #FBV的形式 function based view 基于函数/类/django的视图 
 def index(request):
+    #查找文章中的所有内容
     articles=Articles.objects.all()
     context = {
         'articles':articles
     }
     return render(request,'index.html',context)
+
 
 
 #详情页面加id参数
