@@ -57,6 +57,7 @@ def detail(request,pk):
 
 def search(request):
     keyword=request.GET.get('keyword')
+    
     print('keyword=',keyword)
     if not keyword:
         error_msg= '请输入关键字'

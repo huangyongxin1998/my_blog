@@ -27,7 +27,7 @@
 						<li role="presentation"><a href="{% url 'contact' %}">联系</a></li>
 						<li role="presentation"><a href="{% url 'about' %}">关于我</a></li>
 					</ul>
-					<form class="navbar-form navbar-right" role="search" method='GET' action='/search/'>
+					<form class="navbar-form navbar-right" role="search" method='GET' action='/article/search/'>
 						{% csrf_token %}
 						<div class="form-group">
 							<input name='keyword' type="text" class="form-control" placeholder="请输入文章标题或者作者名称">
